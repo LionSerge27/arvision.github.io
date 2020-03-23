@@ -299,10 +299,10 @@
 	if( location.hash === '#video' ){
 		var videoGrabbing = new THREEx.VideoGrabbing()
 		jsArucoMarker.videoScaleDown = 10
-	}else if( location.hash === '#video' ){
+	}else if( location.hash === '#webcam' ){
 		var videoGrabbing = new THREEx.WebcamGrabbing()
 		jsArucoMarker.videoScaleDown = 2
-	}else if( location.hash === '#coffee' ){
+	}else if( location.hash === '#image' ){
 		var videoGrabbing = new THREEx.ImageGrabbing()
 		jsArucoMarker.videoScaleDown = 10
 	}else console.assert(false)
